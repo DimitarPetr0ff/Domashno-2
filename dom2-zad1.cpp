@@ -30,37 +30,6 @@ int main()
 	}
 	cout << "Total sum is: " << TOTAL_SUM << endl;
 
-
-
-	/*int number;
-	cin >> number;
-	if (number < 1)
-	{
-		cout << "incorrect input";
-		return 1;
-	}
-	else
-	{
-		while (number % 10 == number / 10 % 10)
-		{
-			number++;
-			cout << number;
-		}
-
-		/*while (number >=10)
-		{
-			if (number % 10 != number / 10 % 10)
-			{
-				cout << "bad input";
-
-				return 1;
-			}
-		   number /= 10;
-		}
-		//cout << "good input";
-    } */
-	
-
     return 0;
 }
 
